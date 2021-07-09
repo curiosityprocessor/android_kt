@@ -1,2 +1,2 @@
-# android_kt
-sample android app with kotlin
+# app
+parent repository storing all mobile-app related projects
