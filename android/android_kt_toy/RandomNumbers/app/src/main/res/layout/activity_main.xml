@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/addNumber"
+        android:text="@string/add_number"
         app:layout_constraintEnd_toStartOf="@+id/clearButton"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +41,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="@string/beginAutoGen"
+        android:text="@string/begin_auto_gen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -50,56 +50,95 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addButton"
-        android:gravity="center">
+        app:layout_constraintTop_toBottomOf="@+id/addButton">
 
         <TextView
             android:id="@+id/numTextView0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_blue"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:text="0"
-            android:layout_margin="5dp"/>
+            android:visibility="gone"
+            tools:visibility="visible" />
 
         <TextView
             android:id="@+id/numTextView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_blue"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:text="1"
-            android:layout_margin="5dp"/>
+            android:visibility="gone"
+            tools:visibility="visible" />
 
         <TextView
             android:id="@+id/numTextView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_blue"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:text="2"
-            android:layout_margin="5dp"/>
+            android:visibility="gone"
+            tools:visibility="visible" />
 
         <TextView
             android:id="@+id/numTextView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_blue"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:text="3"
-            android:layout_margin="5dp"/>
+            android:visibility="gone"
+            tools:visibility="visible" />
 
         <TextView
             android:id="@+id/numTextView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_blue"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:text="4"
-            android:layout_margin="5dp"/>
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/numTextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_blue"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible" />
 
     </LinearLayout>
 
