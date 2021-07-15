@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RandomNumbers</string>
+    <string name="add_number">번호 추가하기</string>
+    <string name="init">초기화</string>
+    <string name="begin_auto_gen">자동생성 시작</string>
+    <string name="alert_try_after_init">초기화 후에 시도해주세요.</string>
+    <string name="alert_choose_upto_3">번호는 6개까지만 선택 가능합니다.</string>
+    <string name="alert_alreay_chosen">이미 선택한 번호입니다.</string>
+</resources>

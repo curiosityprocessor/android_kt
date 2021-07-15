@@ -5,19 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ResultActivity">
+    tools:context=".ResultActivity"
+    android:gravity="center">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="BMI: "/>
 
         <TextView
-            android:id="@+id/resultTextView"
+            android:id="@+id/bmiTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="22.0"/>
@@ -27,14 +30,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="결과는: "/>
 
         <TextView
-            android:id="@+id/resultText2"
+            android:id="@+id/resultTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="정상체중입니다."/>

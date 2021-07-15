@@ -3,6 +3,7 @@ package fastcampus.aop.part2.ch1.bmicalculator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.TextView
 import kotlin.math.pow
 
 class ResultActivity : AppCompatActivity() {
@@ -15,9 +16,9 @@ class ResultActivity : AppCompatActivity() {
 
         Log.d("ResultActivity", "height:$height, weight:$weight")
 
-        val bmi = weight / (height/100.0).pow(2.0)
+        val bmi = (weight / (height/100.0).pow(2.0))
 
-        val resultText = when {
+        val result = when {
             bmi >= 35.0 -> "고도 비만"
             bmi >= 30.0 -> "중정도 비만"
             bmi >= 25.0 -> "경도 비만"
@@ -27,6 +28,11 @@ class ResultActivity : AppCompatActivity() {
             else -> "저체"
         }
 
+        val bmiTextView = findViewById<TextView>(R.id.bmiTextView)
+        val resultTextView = findViewById<TextView>(R.id.resultTextView)
+
+        bmiTextView.text = bmi.toString()
+        resultTextView.text = result
 
     }
 }
