@@ -1,4 +1,4 @@
-package curiosityprocessor.android_kt_toy.androidbasics
+package cp.kt_toy.androidbasics
 
 import org.junit.Test
 
