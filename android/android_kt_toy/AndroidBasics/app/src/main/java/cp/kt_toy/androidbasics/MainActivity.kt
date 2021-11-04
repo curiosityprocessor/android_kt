@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.EditText
 import cp.kt_toy.androidbasics.databinding.MainActivityBinding
 import cp.kt_toy.androidbasics.lifecycle.LifecycleActivity
+import cp.kt_toy.androidbasics.view.CustomViewActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -82,6 +83,14 @@ class MainActivity : AppCompatActivity() {
     private fun initEvents(){
         btnActivityLifecycle.setOnClickListener {
             val intent = Intent(this, LifecycleActivity::class.java).apply {
+//                putExtra()
+//                addFlags()
+            }
+            startActivity(intent)
+        }
+
+        binding.btnCustomView.setOnClickListener{
+            val intent = Intent(this, CustomViewActivity::class.java).apply {
 //                putExtra()
 //                addFlags()
             }
